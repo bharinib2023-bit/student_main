@@ -1,0 +1,72 @@
+[debug] [2026-10-11T10:34:10.856Z] ----------------------------------------------------------------------
+[debug] [2026-10-11T10:34:10.858Z] Command:       D:\AI INTERN\node.exe C:\Users\ranjani2007\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-10-11T10:34:10.858Z] CLI Version:   15.33.0
+[debug] [2026-10-11T10:34:10.858Z] Platform:      win32
+[debug] [2026-10-11T10:34:10.858Z] Node Version:  v24.17.0
+[debug] [2026-10-11T10:34:10.858Z] Detected Agent: unknown
+[debug] [2026-10-11T10:34:10.858Z] Time:          Sun Oct 11 2026 16:04:10 GMT+0530 (India Standard Time)
+[debug] [2026-10-11T10:34:10.858Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-10-11T10:34:10.871Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\5th sem\student-project\frontend
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2026-10-11T10:34:51.556Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-10-11T10:34:51.556Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2026-10-11T10:36:35.970Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-10-11T10:36:35.971Z] > authorizing via signed-in user (ranjanis@student.tce.edu)
+[debug] [2026-10-11T10:36:50.541Z] Checked if tokens are valid: false, expires at: 1790434125072
+[debug] [2026-10-11T10:36:50.542Z] Checked if tokens are valid: false, expires at: 1790434125072
+[debug] [2026-10-11T10:36:50.542Z] > refreshing access token with scopes: []
+[debug] [2026-10-11T10:36:50.550Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-10-11T10:36:50.550Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-11T10:36:50.783Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-10-11T10:36:50.784Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-10-11T10:36:50.816Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2026-10-11T10:36:50.817Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"1231234"}
+[debug] [2026-10-11T10:36:51.436Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2026-10-11T10:36:51.436Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"project-5778705293895131139"}
+[debug] [2026-10-11T10:36:57.064Z] Checked if tokens are valid: true, expires at: 1791718609784
+[debug] [2026-10-11T10:36:57.064Z] Checked if tokens are valid: true, expires at: 1791718609784
+[debug] [2026-10-11T10:36:57.065Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2026-10-11T10:36:57.065Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"1231234"}
+[debug] [2026-10-11T10:36:57.710Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2026-10-11T10:36:57.710Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"project-1885234273065662178"}
+[debug] [2026-10-11T10:37:13.860Z] Checked if tokens are valid: true, expires at: 1791718609784
+[debug] [2026-10-11T10:37:13.861Z] Checked if tokens are valid: true, expires at: 1791718609784
+[debug] [2026-10-11T10:37:13.861Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2026-10-11T10:37:13.861Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"ranjani@222"}
+[debug] [2026-10-11T10:37:14.050Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 400
+[debug] [2026-10-11T10:37:14.050Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT"}}
+[debug] [2026-10-11T10:37:14.051Z] Couldn't check if project ID ranjani@222 is available. Original error: FirebaseError: Failed to check if project ID is available. See firebase-debug.log for more info.
+[debug] [2026-10-11T10:37:23.157Z] Checked if tokens are valid: true, expires at: 1791718609784
+[debug] [2026-10-11T10:37:23.157Z] Checked if tokens are valid: true, expires at: 1791718609784
+[debug] [2026-10-11T10:37:23.157Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2026-10-11T10:37:23.157Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"ranjani@222","name":"student"}
+[debug] [2026-10-11T10:37:23.600Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2026-10-11T10:37:23.602Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2026-10-11T10:37:23.768Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\ranjani2007\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ranjani2007\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
